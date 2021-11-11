@@ -1,0 +1,122 @@
+html {
+    height:100vh;
+    width: 100vw;
+}
+
+body {
+  height:100vh;
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* HEADER*/
+header {
+    border: 1.5rem solid rgb(0,0,0);
+}
+
+#head0 {
+    background:rgb(49, 75, 100);
+    display: flex;
+    justify-content:space-between;
+    padding: 1.5rem;
+    border-style: solid;
+    border-width: 0rem 0rem 0.5rem 0rem;
+}
+
+#head0 > div {
+    display: flex;
+    background: rgb(194, 72, 72);
+	justify-content:center;
+    flex: 0.125 1 auto;
+    height:1.5rem;
+}
+
+#head0 > #head2 {
+    flex: 0.7 1 auto;
+}
+
+nav {
+    background:rgb(255,140,0);
+    color: rgb(255,215,0);
+    display: flex;
+    padding: 1.5rem;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 0.5rem 0rem 0rem 0rem;
+}
+
+nav > div {
+    background:rgb(255,215,0);
+    width: 48.5rem;
+    height:1.5rem;
+    flex: 1 1 0;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    margin: 1.5rem 0 1.5rem 0;
+    border: 1.5rem solid rgb(0,0,0);
+}
+
+article{
+    background:rgb(68, 74, 80);
+    margin-right: auto;
+    flex:2;
+    padding: 0.625rem;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 0rem 0.75rem 0rem 0rem;
+}
+
+#table1 {
+   display:flex;
+   justify-content: space-evenly;
+   flex-wrap:wrap;
+}
+
+#table1>.r1 {
+  display:flex;
+  background: rgb(100,149,237);
+  height:1.5rem;
+  margin: 1rem 0.5rem 1rem 0.5rem ;
+  width: 48%;
+  flex: 1 1 15rem;
+}
+
+#table1>.r3{
+    display:flex;
+    height:1.5rem;
+    margin: 1rem 0.5rem 1rem 0.5rem ;
+    background: rgb(171, 203, 240);
+    flex: 1 1 100%;
+}
+
+aside{
+    background:rgb(255, 30, 79);
+    color: rgb(240,230,140);
+	flex:1;
+    padding: 1rem;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    border-width: 0rem 0rem 0rem 0.75rem;
+}
+
+aside >div {
+    background: rgb(240,230,140);
+    margin: 1rem 0.125rem 0rem 0.125rem;
+    display:flex;
+    height:1.5rem;
+}
+
+/* FOOTER*/
+footer{
+    background:rgb(218,165,32);
+    display: flex;
+    align-self:end;
+    padding: 1rem;
+    border: 1.5rem solid rgb(0,0,0);
+    margin: 0rem,0rem,0,625rem,0rem; 
+}

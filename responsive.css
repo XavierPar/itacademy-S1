@@ -1,0 +1,86 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  
+  /* CSS */
+main{
+  border: 1.5rem solid rgb(255, 251, 15);
+}
+
+main {
+  flex-wrap: wrap;
+}
+
+article{
+  flex: 1 1 47rem;
+  align-self:center;
+  border-style: solid;
+  border-color: rgb(255, 251, 15);
+  border-width: 0rem 0rem 0.75rem 0rem;
+ }
+
+#table1>.r1 {
+  flex: 1 1 46%;
+  
+  
+  
+}
+
+#table1>.r3 {
+  width:100%
+}
+
+aside{
+  flex: 1 1 47rem;
+  border-style: solid;
+  border-color: rgb(255, 251, 15);
+  border-width: 0.75rem 0rem 0rem 0rem;
+}
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+  
+  /* CSS */
+main{
+  border: 1.5rem solid rgb(255, 251, 15);
+ }
+#head0 {
+  flex-direction:column;
+  row-gap: 1rem;
+}
+  
+main {
+  flex-wrap: wrap;
+   }
+
+article{
+  flex: 1 1 47rem;
+  align-self:center;
+  background-color: #37919F;
+  border-color: rgb(255, 251, 15);
+  border-width: 0rem 0rem 0.75rem 0rem;
+}
+    
+#table1>.r1 {
+  flex: 1 1 15rem;
+  background-color: #224247;
+}
+
+aside{
+  flex: 1 1 47rem;
+  background-color: #f59629;
+  border-color: rgb(255, 251, 15);
+  border-width: 0rem 0rem 0.75rem 0rem;
+}
+  
+}
